@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title>Webdev task one </title>
 
 </head>
@@ -11,48 +12,114 @@
 <body>
 
 
-    <div class="header">
+    <div class="header" id="Home">
         <h1>My Website</h1>
         <p>A website created by me.</p>
     </div>
 
     <div class="navbar">
-
         <!--Add navigation links on the right-->
-
+        <nav>
+            
+                <a href="#Home">Home</a>
+                <a href="#DSC Moi University Onboarding Session">DSC Moi University
+                     Onboarding Session</a>
+                <a href="#contacts">contacts</a>
+                <a href="#About me">About me</a>
+        </nav>
     </div>
 
     <div class="row">
         <div class="side">
-            <h2>About Me</h2>
+            <h2 id="About me">About Me</h2>
             <h5>Photo of me:</h5>
             <!--Add a div of class "fakeimg"-->
-            <!--Add an image as a link to navigate home of height 200px-->
-
-            <!--Add a blockquote decribing yourself ,make the key aspect strong-->
-            <h3>More Text</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
+          <!--Add an image as a link to navigate home of height 200px-->
+          <div class="fakeimg">
+              <a href="#Home"><img src="C:\Users\Opo-law\Documents\GitHub\orlova-maria-b37mDyPzdJM-unsplash.jpg"
+                 height="200px" width="150px"
+                 alt="just to navigate home"></a>
+          </div>
+         <!--Add a blockquote decribing yourself ,make the key aspect strong-->
+            <blockquote>
+                <p> Am <strong>Kevin</strong> , a<strong>Technology enthuciast.</strong>  Am currently 
+                    learning Web development <a href="https://dsc.community.dev/moi-university/">@DSC-Moi</a><br>
+                    I would love to be part of those shaping the web and the future of web development<br>
+                     </p>
+              </blockquote>
+            <h3>More about myself</h3>
+            <p>When am not writing codes, I will be riding, hiking, making friends and having a lot fun
+                with friends and family, checkout this album </p>
             <!--Add a photo album-->
+            
         </div>
         <div class="main">
             <!--Add a heading 2 DSC Moi University Onboarding Session -->
+            <h2 id="DSC Moi University Onboarding Session">DSC Moi University Onboarding Session</h2>
             <!--Add a heading 5 with date-->
-            <!--Add a div class fakeimg ,add a youtube video in the div sourcing from DSC Moi University Mentorship Program Onboarding Session-->
-            <p>Some text..</p>
+            
+            <h5></h5>
+            <!--Add a div class fakeimg ,add a youtube video in the div sourcing from DSC Moi 
+                University Mentorship Program Onboarding Session-->
+                <div class="fakeimg">
+                    <iframe width="480" height="200" src="https://www.youtube.com/embed/I5Mj4-U7I7s" frameborder="0"
+                     allow="accelerometer; autoplay;
+                     clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            <p>More about DSC-Moi University is that it`s a community based mentorship<br>
+                 program for University students interested in Google Technologies.<br>
+                 At DSC-Moi we got several Technology tracks
+                hope you find a choice here:
+            </p>
             <!--Create unordered lists with ordered sublist-->
+            <ul>
+                 <li>Web development track:
+                     <ol>
+                         <li>HTML</li>
+                         <li>CSS</li>
+                         <li>JS</li>
+                     </ol>
+
+                 </li>
+                 <li>Android </li>
+                 <li>machine learning </li>
+                 <li>Artificial intelligence</li>
+            </ul>
             <br>
-            <h2>Contacts</h2>
+            <h2 id="contacts">Contacts</h2>
 
 
             <!--Add a form to input email,phone number and a message-->
+            <form action="post">
+                <div class="info">
+               <label for="myemail">email address</label>
+                <input type="email" id="myemail" required>
+                <label for="phonenumber">phonenumber</label>
+                <input type="tel" id="phonenumber"  required><br>
+                
+                </div>
+                <label for="message">Your message</label>
+              
+
+                <textarea name="" id="message" cols="80" rows="10" class="message"></textarea><br>
+                
+               <p7> <input type="submit" id="submit" class="com"></p7>
+
+            </form>
         </div>
     </div>
 
     <div class="footer">
         <h2>Footer</h2>
         <!-- Add favorite social media icons linking to your social account-->
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+         data-show-count="false">Tweet</a>
+        <script async src="https://platform.twitter.com/widgets.js" 
+        charset="utf-8"></script>
+        
     </div>
-
+    
 
 
 

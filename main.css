@@ -11,16 +11,19 @@ body {
 .header {
     padding: 80px;
     text-align: center;
-    background: #1abc9c;
-    color: white;
+    height: 100px;
+    color:greenyellow;
+    background-image: 
+    url(https://static.depositphotos.com/storage/image/37cdd0e8adc2757cb9c7a260cb146de047494f18.jpg);
 }
 
 
 /* Increase the font size of the heading */
+h1{font-size: 78px;
+margin-bottom: 0;}
 
-.header h1 {
-    font-size: 40px;
-}
+
+
 
 
 /* Style the top navigation bar */
@@ -98,8 +101,7 @@ body {
 /* Fake image, */
 
 .fakeimg {
-    background-color: #aaa;
-    width: 100%;
+    width: 1rem;
     padding: 20px;
     
 }
@@ -110,7 +112,7 @@ body {
 .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: rgb(148, 236, 106);
 }
 
 
@@ -130,6 +132,7 @@ body {
         float: none;
         width: 100%;
     }
+
 }
 .info{
     border: 1px solid black;
@@ -138,9 +141,11 @@ body {
     margin-bottom: 2rem;
     width: 90%;
 }
-.com{
-    font-weight: bold;
-    margin-top: 7px;
-    background-color: chartreuse;
 
+.submit input{
+    width:20rem ;
+    background-color:rgb(201, 56, 56);
+    height: 3rem;
+    
 }
+
